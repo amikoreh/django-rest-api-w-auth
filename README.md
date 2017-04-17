@@ -2,6 +2,7 @@
 #### A Django (Python) REST API using [Django REST framework](http://www.django-rest-framework.org/)
 
 ###build commands:
+
 #####Create a new virtual environment using virtualenv
 - virtualenv -p /usr/local/bin/python3 venv
 - source venv/bin/activate
@@ -10,6 +11,9 @@
 #####Install package requirements
 - pip install Django
 - pip install djangorestframework
+- pip install -U Django
+- pip freeze | grep djangorestframework
+- pip install -U djangorestframework
 
 #####Freeze environment packages
 - touch requirements.txt
@@ -24,6 +28,7 @@
 
 #####Run test cases
 - python3 manage.py test
+- python3 manage.py test rest_api
 
 #####Run migrations to create database
 - python3 manage.py makemigrations
