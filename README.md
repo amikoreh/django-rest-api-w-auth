@@ -19,6 +19,7 @@
 - touch requirements.txt
 - pip freeze > requirements.txt
 - Run package updates: pip install -r requirements.txt --upgrade
+- with brew running python 2 and 3, specify pip version: pip3 install -r requirements.txt --upgrade
 
 #####Create a new project to work with
 - django-admin startproject rest_api
@@ -40,6 +41,8 @@
 
 ##### Add new admin user for authentication:
 - python manage.py createsuperuser
+- admin2
+- password123
 
 ##### Useful links:
 http://docs.python-guide.org/en/latest/
